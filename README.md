@@ -20,15 +20,12 @@ Desconsiderando o sistema de cadastro de Usuários, a solução do TonberryPay s
 
 Serão dois microsserviços principais, um responsável por gerenciar todas as etapas e validações de no domínio de transferência, outro responsável pelo domínio de comunicações.
 
-<div align="center">
-![Desenho de Solução](./doc/TonberryPay-Desenho%20de%20solucao.png)
-</div>
+![TonberryPay - Desenho de Solução](./doc/TonberryPay-Desenho%20de%20solucao.png)
+
 A ideia principal desta abordagem é separar os serviços por contexto e caso de uso, permitindo que outros serviços possam usufruir dos mesmos eventos e desempenhar seus papéis com base na mensagem consumida.
 
 Por exemplo: Após a transferência, o usuário pode precisar que um comprovante (ou nota fiscal) seja gerado e enviado por e-mail. Com base no evento de sucesso gerado pelo serviço de transferência, o terceiro serviço de geração de comprovantes pode coletar as informações na mensagem e enriquecer o arquivo que será disponibilizado as partes da transferência.
 
 ### UML
 
-<div align="center">
-  ![tonberrypay_UML](./doc/TonberryPay_UML.png)
-</div>
+![TonberryPay - UML](./doc/TonberryPay_UML.png)
