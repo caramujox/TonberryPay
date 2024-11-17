@@ -6,9 +6,9 @@ _Pay me or i'll stab you_
 
 Repo pra treinar com esse desafio aqui: https://github.com/PicPay/picpay-desafio-backend?tab=readme-ov-file
 
-## Definições Técnicas
+## Definições Técnicas 💻🏢👥
 
-### Tecnologias 🚀
+### Tecnologias 💻
 
 ![Kotlin](https://img.shields.io/badge/Kotlin-B125EA?style=for-the-badge&logo=kotlin&logoColor=white)
 ![Springboot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
@@ -29,4 +29,6 @@ Por exemplo: Após a transferência, o usuário pode precisar que um comprovante
 
 ### UML 👥
 
-![TonberryPay - UML](./doc/TonberryPay_UML.png)
+![TonberryPay-UML](./doc/TonberryPay-UML.png)
+
+## Rodando o projeto Localmente
